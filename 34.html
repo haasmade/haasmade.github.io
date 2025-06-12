@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Large Image</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    img {
+      display: block;
+      width: auto;
+      height: 100vh;
+      max-height: 1000px;
+    }
+  </style>
+</head>
+<body>
+  <div style="overflow-x: scroll; width: 100vw;">
+    <img src="Christian Haas crosstown 34.jpg" alt="34" oncontextmenu="return false;">
+  </div>
+  <script>
+    // Function to disable right-click on the entire page (optional)
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
+  </script>
+</body>
+</html>
